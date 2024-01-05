@@ -35,7 +35,10 @@ const Header = () => {
     <Navbar color="white" light expand="md" className="fix-header">
       <div className="d-flex align-items-center">
         <div className="d-lg-block d-none me-5 pe-3">
-          <Logo />
+        <img src="../assets/images/logos/img.svg" style={{ marginRight: '10px' }} />
+          <span style={{ fontFamily: 'Medium', fontSize: '25px', color: 'black', marginRight :'10px'}}>
+                 강북/강원 전력 관리 플랫폼
+          </span>
         </div>
         <NavbarBrand href="/">
           <LogoWhite className="d-lg-none" />
@@ -88,7 +91,7 @@ const Header = () => {
           </UncontrolledDropdown> */}
         </Nav>
           <span style={{ fontFamily: 'Medium', fontSize: '25px', color: 'black', marginRight :'10px'}}>
-                 NIT기술팀 송병섭
+                 NIT기술팀
           </span>
         {/* <Dropdown isOpen={dropdownOpen} toggle={toggle}>
           <DropdownToggle color="transparent">

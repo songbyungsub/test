@@ -2,21 +2,21 @@ import { Button, Nav, NavItem } from "reactstrap";
 import { Link, useLocation } from "react-router-dom";
 
 const navigation = [
+  // {
+  //   title: "차트 연습",
+  //   href: "/Dashboard",
+  //   icon: "bi bi-speedometer2",
+  // },
   {
-    title: "차트 연습",
-    href: "/Dashboard",
-    icon: "bi bi-speedometer2",
-  },
-  {
-    title: "연동 테스트",
+    title: "전력량 사용 현황",
     href: "/alerts",
     icon: "bi bi-bell",
   },
-  // {
-  //   title: "Badges",
-  //   href: "/badges",
-  //   icon: "bi bi-patch-check",
-  // },
+  {
+    title: "전력비 청구 현황",
+    href: "/badges",
+    icon: "bi bi-patch-check",
+  },
   // {
   //   title: "Buttons",
   //   href: "/buttons",
