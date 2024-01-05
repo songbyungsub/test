@@ -2,6 +2,7 @@ from django.urls import path, include
 from kepco import views
 
 urlpatterns = [
-    path('test/',views.crawling_kepco_power, name='kepcopowercrawiling'),
-    path('write/',views.test_daypower, name='writeaffairs'),
+    path('crawling_kepco_power/',views.crawling_kepco_power, name='crawling_kepco_power'),
+    path('crawlingpower/',views.crawl_yearpower, name='crawlingpower'),
+    path('uploadaffair/',views.writeaffairs, name='writeaffairs'),
 ]
